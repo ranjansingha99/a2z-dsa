@@ -34,8 +34,7 @@ class Solution {
             
             if( minIndex != i) {
                 swap( arr[i] , arr[minIndex]) ;
-            }
-            
+            } 
         }
     }
 };
