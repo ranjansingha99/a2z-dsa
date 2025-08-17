@@ -15,6 +15,9 @@ Merge: [8] [3] -> [3, 8] ; [5] [4] -> [4, 5] ; [7] [6] -> [6, 7] ; [1] [2] -> [1
 
 Time Complexity: O(n log n), as we are dividing the array into halves (log n) and merging them back together (O(n)).
 Space Complexity: O(n), as we are using extra space for the temporary subarrays, the recursion stack space is O(log n) in the worst case.
+
+Stable: Yes, because it preserves the order of equal elements.
+In-place: No, because it requires additional space for the temporary arrays.
 */
 
 class Solution {
