@@ -13,7 +13,7 @@ In-place: Yes - it requires only a constant amount of additional space.
 */
 
 /*
-Pivot picking is random, but the code logic changes based on the pivot chosen.
+Pivot picking is random, but the code logic changes based on the pivot chosen. (solved using the first or/ last element as pivot)
 
 [7, 2, 1, 6, 8, 5, 3, 4]
 
