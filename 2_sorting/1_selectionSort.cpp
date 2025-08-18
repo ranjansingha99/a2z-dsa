@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/problems/selection-sort/1
+
 /* 
 Repeatedly find the minimum element from the unsorted part of the list and move it to the beginning. 
 
@@ -16,8 +18,6 @@ Pass 2: Finf the minimum from the unsorted part [25, 12, 22, 64], minimum is 12,
 
 So on... till the subarray is sorted.
 */
-
-// https://www.geeksforgeeks.org/problems/selection-sort/1
 
 class Solution {
   public:

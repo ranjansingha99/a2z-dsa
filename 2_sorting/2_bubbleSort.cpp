@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/problems/bubble-sort/1
+
 /*
 Repeatedly steps through a list, compares adjacent elements, and swaps them if they are in the wrong order. 
 This way it sorts the largeest sorted part of the list to the end.
@@ -17,8 +19,6 @@ Pass 3: [1, 2, 4, 5, 8] -> [1, 2, 4, 5, 8] -> [1, 2, 4, 5, 8] -> [1, 2, 4, 5, 8]
 
 Passes continue until no swaps are needed.
 */
-
-// https://www.geeksforgeeks.org/problems/bubble-sort/1
 
 class Solution {
   public:

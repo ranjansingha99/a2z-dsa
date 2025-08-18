@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/problems/insertion-sort/1
+
 /*
 Imagine you're holding a few cards in your hand, and they're already sorted. Someone hands you a new card. 
 To keep your hand sorted, you take the new card and compare it with the cards you're already holding, from right to left, 
@@ -22,9 +24,6 @@ Pass 3: [2, 4, 5, 6, 1, 3], select 6 and insert it in already sorted part [2, 4,
 
 So on till the last element.
 */
-
-// https://www.geeksforgeeks.org/problems/insertion-sort/1
-
 
 class Solution {
 public:

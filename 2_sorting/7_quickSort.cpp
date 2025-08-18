@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/problems/quick-sort/1
+
 /*
 Divide & Conquer:
 Its genius lies in a step called partitioning. It picks an element as a pivot and rearranges the array so that all elements smaller than 
