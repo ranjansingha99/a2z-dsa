@@ -5,6 +5,12 @@ DFS: Depth-First Search
 This code performs a depth-first traversal of a graph represented by an adjacency list.
 Time Complexity: O(V + E) where V is the number of vertices and E is the number of edges.
 Space Complexity: O(V) for the visited array and recursion stack.
+
+Note: Different adjacency list order can lead to different traversal sequences.
+*/
+
+/*
+Last time did mistake by using stack instead of recursion. Then realize that stack is doing something diffrent here.
 */
 
 class Solution {

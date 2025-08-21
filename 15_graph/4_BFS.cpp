@@ -5,6 +5,8 @@ BFS: Breadth-First Search
 This code performs a breadth-first traversal of a graph represented by an adjacency list.
 Time Complexity: O(V + E) where V is the number of vertices and E is the number of edges.
 Space Complexity: O(V) for the visited array and queue.
+
+Note: Different adjacency list order can lead to different traversal sequences.
 */
 
 /*
